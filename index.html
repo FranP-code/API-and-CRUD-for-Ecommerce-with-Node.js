@@ -31,7 +31,7 @@
                         <span id="perfil-nombre">Ana María</span>
                         <span id="nacionalidad">ARG</span>
                     </div>
-                    
+
                     <img src="./img/perfil.png" alt="profile image" class="profile-img button">
                 </div>
                 
@@ -39,45 +39,81 @@
             </div>
         </header>
 
-        <div class="primer-columna">
-            <div class="checkout">
-                <table id="products-display-checkout">
-                    <tr>
-                        <th>
-                            Cantidad
-                        </th>
-                        <th>
-                            Producto
-                        </th>
-                        <th>
-                            Tax
-                        </th>
-                        <th>
-                            Total
-                        </th>
-                    </tr>
-                </table>
+        <div class="tienda">
+
+            
+            <div class="primer-columna">
+                <div class="checkout">
+                    <div class="table-container">
+
+                        
+                        <table id="products-display-checkout">
+                            <thead>
+                                <tr>
+                            <th>
+                                Cantidad
+                            </th>
+                            <th>
+                                Producto
+                            </th>
+                            <th>
+                                Tax
+                            </th>
+                            <th>
+                                Total
+                            </th>
+                        </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>
+                                    1
+                                    <button class="button">
+                                        +
+                                    </button>
+                                    <button class="button">
+                                        -
+                                    </button>
+                                </td>
+                                <td>
+                                    Coca Cola
+                                </td>
+                                
+                                <td>
+                                    15
+                                </td>
+                                <td>
+                                    40
+                                </td>
+                                <td>
+                                    <img src="./img/eliminar.png" alt="trash-icon" class="button">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 
                 <hr>
                 
-                <div>
-                    <span class="total">Total</span>
-                    <span class="precio"></span>
+                <div class="total-container">
+                    <span class="total">TOTAL</span>
+                    <span class="precio">0</span>
                     <span class="moneda">$</span>
                 </div>
             </div>
             
             <div class="botones-de-descuento">
-
-                <button>
+                
+                <button class="button">
                     DESCUENTO DE EMPLEADOS
                 </button>
-
-                <button>
+                
+                <button class="button">
                     VISTA CLIENTE
                 </button>
-
-                <button>
+                
+                <button class="button">
                     CÓDIGO PROMOCIONAL
                 </button>
             </div>
@@ -107,23 +143,23 @@
             <div class="productos">
                 <!-- //! RELLENAR CON DATOS DE EJEMPLO-->
             </div>
-
+            
             <div class="sub-menu">
-
+                
                 <div class="opciones-de-pago">
                     
                     <div>
                         <img src="./img/pngwing.com.png" alt="cash icon">
                     </div>
-
+                    
                     <div>
                         <img src="./img/visa.png" alt="Visa icon">
                     </div>
-
+                    
                     <div>
                         <img src="./img/mastercard.png" alt="Mastercard icon">
                     </div>
-
+                    
                     <div>
                         <img src="./img/uber-eats.jpg" alt="Uber Eats icon">
                     </div>
@@ -131,21 +167,21 @@
                     <div>
                         DEBITO
                     </div>
-
+                    
                     <div>
                         +
                     </div>
                 </div>
-
+                
                 <div class="pagar">
                     
                     <span>PAGAR</span>
-
+                    
                 </div>
-
+                
             </div>
         </div>
-
+    </div>    
     </div>
 </body>
 </html>

@@ -54,6 +54,8 @@ header .logo {
 
     display: flex;
     user-select: none;
+
+    margin-left: 1vw;
 }
 
 header .logo h3 {
@@ -107,4 +109,124 @@ header .perfil img.profile-menu {
     height: 3vw;
     filter: invert(1);
 
+}
+
+.pagina-principal .tienda{
+    
+    display: flex;
+}
+
+.pagina-principal .primer-columna {
+
+    width: 32vw;
+    box-sizing: border-box;
+    
+    margin-left: 1vw;
+}
+
+.pagina-principal .primer-columna .checkout {
+
+    padding-top: 2vh;
+    
+}
+
+.pagina-principal .primer-columna .checkout .table-container {
+
+    height: 50vh;
+}
+
+.pagina-principal .primer-columna .checkout .table-container table {
+    
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 3vh;
+}
+
+/* .pagina-principal .primer-columna .checkout .table-container table thead {
+
+    border-bottom: 1px solid rgb(206, 206, 206);
+} */
+
+.pagina-principal .primer-columna .checkout .table-container table tbody {
+
+    margin-top: 3vh;
+}
+
+.pagina-principal .primer-columna .checkout .table-container table tbody tr td {
+
+    text-align: center;
+}
+
+.pagina-principal .primer-columna .checkout .table-container table tbody tr td:first-child button{
+
+    background-color: #fff;
+    
+    width: 2vw;
+    height: 2vw;
+
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 100%;
+}
+
+.pagina-principal .primer-columna .checkout .table-container table tbody tr td img {
+
+    width: 2vw;
+}
+
+.pagina-principal .primer-columna .checkout .total-container {
+
+    text-align: end;
+}
+
+.pagina-principal .primer-columna .checkout .total-container {
+
+    font-size: 20pt;
+}
+
+.pagina-principal .primer-columna .checkout .total-container .total {
+
+    font-weight: bold;
+    margin-right: 3vw;
+}
+
+.pagina-principal .primer-columna .checkout .total-container .precio {
+
+    font-weight: bold;
+    color: rgb(255, 212, 70);
+}
+
+.pagina-principal .primer-columna .botones-de-descuento {
+
+    margin-top: 2vh;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.pagina-principal .primer-columna .botones-de-descuento button {
+
+    width: 13vw;
+    height: 10vh;
+
+    border: 1px solid rgba(0, 0, 0, 0.131);
+    background-color: #fff;
+    
+    margin: 2vh 1vw 0vh 1vw ;
+    
+    transition: 0.4s ease-in-out;
+}
+
+.pagina-principal .primer-columna .botones-de-descuento button:hover {
+
+    background-color: rgb(147, 223, 253);
+    
+    transition: 0.4s ease-in-out;
+}
+
+.pagina-principal .segunda-columna {
+
+    width: 65vw;
 }
