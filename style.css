@@ -1,0 +1,110 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto, helveltica;
+
+    display: flex;
+}
+
+.button {
+    
+    cursor: pointer;
+}
+
+.menu-lateral {
+
+    width: 5vw;
+    height: 100vh;
+
+    box-sizing: border-box;
+
+    background-color: rgb(114, 114, 114);
+    
+    padding: 1vh 1vw;
+
+    grid-column: 1 / 1;
+}
+
+.menu-lateral img {
+
+    width: 3vw;
+    filter: invert(100%);
+
+}
+
+header {
+
+    width: 94vw;
+    height: fit-content;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(67, 165, 172);
+    color: #fff;
+}
+
+header .logo {
+
+    font-family: Dancing Script, helveltica;
+
+    display: flex;
+    user-select: none;
+}
+
+header .logo h3 {
+
+    font-weight: normal;
+    
+    display: flex;
+    align-items: center;
+
+    margin-left: 1vw;
+}
+
+header .perfil {
+
+    width: 25vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .perfil .informacion-personal {
+
+    display: flex;
+}
+
+header .perfil .informacion-personal .text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .perfil .informacion-personal .text #nacionalidad {
+
+    font-weight: bold;
+}
+
+header .perfil img.profile-img {
+    width: 5vw;
+    height: 5vw;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100%;
+
+    object-fit: cover;
+}
+
+header .perfil img.profile-menu {
+
+    height: 3vw;
+    filter: invert(1);
+
+}

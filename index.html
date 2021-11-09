@@ -7,29 +7,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Columbus</title>
 </head>
 <body>
 
     <div class="menu-lateral">
-        <img src="./img/three lines menu-min.png" alt="three lines menu"> <!--Source: https://www.flaticon.com/premium-icon/menu_3502458?term=three%20lines&page=1&position=4&page=1&position=4&related_id=3502458&origin=search-->
+        <img src="./img/three lines menu-min.png" alt="three lines menu" class="button"> <!--Source: https://www.flaticon.com/premium-icon/menu_3502458?term=three%20lines&page=1&position=4&page=1&position=4&related_id=3502458&origin=search-->
     </div>
-
-    <header>
-        <div class="logo">
-            <h1>Columbus</h1>
-            <h3>Bakery Wholesale</h3>
-        </div>
-        <div class="perfil">
-            <span id="perfil-nombre">Ana María</span>
-            <span id="nacionalidad">ARG</span>
-        </div>
-        <a href="#" id="more-options">
-            <img src="./img/menu-min.png" alt="menu image"> <!-- Source: https://www.flaticon.es/icono-gratis/menu_483345?term=menu%20vertical&page=1&position=10&page=1&position=10&related_id=483345&origin=search-->
-        </a>
-    </header>
-        
+    
     <div class="pagina-principal">
+
+        <header>
+            <div class="logo">
+                <h1>Columbus</h1>
+                <h3>Bakery Wholesale</h3>
+            </div>
+            <div class="perfil">
+
+                <div class="informacion-personal">
+                    
+                    <div class="text">
+                        <span id="perfil-nombre">Ana María</span>
+                        <span id="nacionalidad">ARG</span>
+                    </div>
+                    
+                    <img src="./img/perfil.png" alt="profile image" class="profile-img button">
+                </div>
+                
+                <img src="./img/menu-min.png" alt="menu image" class="profile-menu button"> <!-- Source: https://www.flaticon.es/icono-gratis/menu_483345?term=menu%20vertical&page=1&position=10&page=1&position=10&related_id=483345&origin=search-->
+            </div>
+        </header>
 
         <div class="primer-columna">
             <div class="checkout">
@@ -50,7 +58,7 @@
                     </tr>
                 </table>
                 
-                <br>
+                <hr>
                 
                 <div>
                     <span class="total">Total</span>
