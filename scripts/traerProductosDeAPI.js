@@ -49,6 +49,29 @@ const traerProductosDeAPI = async () => {
             price: 3.5,
             img: './img/postobon-pina.jpg',
             category: 'bebidas'
+        },
+
+        product8: {
+            name: 'Asado',
+            price: 15,
+            img: './img/Asado.jpg',
+            category: 'comidas'
+
+        },
+
+        product9: {
+            name: "Medialunas Dulces",
+            price: 2,
+            img: './img/Medialunas dulces.jpg',
+            category: 'REPOSTERÍA Y PANADERÍA'
+        },
+
+        product10: {
+
+            name: 'Papas fritas congeladas',
+            price: 5,
+            img: './img/Papas fritas congeladas.jpg',
+            category: 'refrigerados'
         }
     }
 }
