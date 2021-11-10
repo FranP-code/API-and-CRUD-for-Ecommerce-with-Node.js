@@ -6,6 +6,13 @@ body {
     font-family: Roboto, helveltica;
 
     display: flex;
+
+    background-color: rgb(214, 214, 214);
+}
+
+img {
+
+    user-select: none;
 }
 
 .button {
@@ -16,7 +23,7 @@ body {
 .menu-lateral {
 
     width: 5vw;
-    height: 100vh;
+    height: auto;
 
     box-sizing: border-box;
 
@@ -46,6 +53,8 @@ header {
 
     background-color: rgb(67, 165, 172);
     color: #fff;
+
+    padding: 0.5vh 0px;
 }
 
 header .logo {
@@ -108,7 +117,7 @@ header .perfil img.profile-img {
 
 header .perfil img.profile-menu {
 
-    height: 3vw;
+    height: 2vw;
     filter: invert(1);
 
 }
@@ -140,7 +149,7 @@ header .perfil img.profile-menu {
 
     border-radius: 5px;
 
-    height: 62.5vh;
+    height: 62vh;
 }
 
 
@@ -162,6 +171,11 @@ header .perfil img.profile-menu {
     border-bottom: 1px solid rgb(206, 206, 206);
 } */
 
+.pagina-principal .primer-columna .checkout .table-container table thead tr #blank-space{
+    
+    width: 2vw;
+}
+
 .pagina-principal .primer-columna .checkout .table-container table tbody {
 
     margin-top: 3vh;
@@ -170,6 +184,14 @@ header .perfil img.profile-menu {
 .pagina-principal .primer-columna .checkout .table-container table tbody tr td {
 
     text-align: center;
+}
+
+.pagina-principal .primer-columna .checkout .table-container table tbody tr td:first-child {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
 }
 
 .pagina-principal .primer-columna .checkout .table-container table tbody tr td:first-child button{
@@ -181,6 +203,7 @@ header .perfil img.profile-menu {
 
     border: 1px solid rgb(192, 192, 192);
     border-radius: 100%;
+
 }
 
 .pagina-principal .primer-columna .checkout .table-container table tbody tr td img {
@@ -289,6 +312,12 @@ header .perfil img.profile-menu {
 
 }
 
+.pagina-principal .segunda-columna nav ul li.active {
+
+    border-bottom:1px solid rgb(255, 212, 70);
+}
+
+
 .pagina-principal .segunda-columna nav ul li img{
 
     width: 3vw;
@@ -301,7 +330,7 @@ header .perfil img.profile-menu {
     background-color: #fff;
     border-radius: 5px;
 
-    height: 64.5vh;
+    height: 64vh;
 }
 
 .pagina-principal .segunda-columna .productos {
@@ -403,4 +432,42 @@ header .perfil img.profile-menu {
     color:rgb(255, 212, 70);
 
     user-select: none;
+}
+
+
+#mensaje-compra-container {
+
+    position: absolute;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+#mensaje-compra {
+    
+    background-color: rgb(73, 73, 73);
+    height: 10vw;
+
+    padding: 0px 5vw;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+
+    user-select: none;
+
+}
+
+#mensaje-compra h2 {
+
+    display: flex;
+    justify-content: center;
 }

@@ -50,23 +50,28 @@
                         <table id="products-display-checkout">
                             <thead>
                                 <tr>
-                            <th>
-                                Cantidad
-                            </th>
-                            <th>
-                                Producto
-                            </th>
-                            <th>
-                                Tax
-                            </th>
-                            <th>
-                                Total
-                            </th>
-                        </tr>
-                        </thead>
+                                    <th>
+                                        Cantidad
+                                    </th>
+                                    <th>
+                                        Producto
+                                    </th>
+                                    <th>
+                                        Tax
+                                    </th>
+                                    <th>
+                                        Total
+                                    </th>
+                                    <th id="blank-space">
+                                        
+                                    </th>
+                                </tr>
+                            </thead>
                         
                         <tbody>
-                            <tr>
+
+                            <!--! Template -->
+                            <!-- <tr>
                                 <td>
                                     1
                                     <button class="button">
@@ -89,7 +94,7 @@
                                 <td>
                                     <img src="./img/eliminar.png" alt="trash-icon" class="button">
                                 </td>
-                            </tr>
+                            </tr> -->
                         </tbody>
                     </table>
                 </div>
@@ -98,7 +103,7 @@
                 
                 <div class="total-container">
                     <span class="total">TOTAL</span>
-                    <span class="precio">0</span>
+                    <span class="precio" id="precio">0</span>
                     <span class="moneda">$</span>
                 </div>
             </div>
@@ -145,51 +150,17 @@
                 
                 <div class="productos">
 
-                    <div class="producto button">
-                        <img src="./img/cocacola-lata.jpg" alt="coca cola">
-                        
-                        <div class="text">
-                            <span class="name">COCA-COLA</span>
-                            <span class="price">15 USD</span>
+                    <!-- !TEMPLATE: 
+                        <div class="producto button">
+                            <img src="./img/cocacola-lata.jpg" alt="coca cola">
+                            
+                            <div class="text">
+                                <span class="name">COCA-COLA</span>
+                                <span class="price">15 USD</span>
+                            </div>
                         </div>
+                    !-->
                     </div>
-
-                    <div class="producto button">
-                        <img src="./img/cocacola-lata.jpg" alt="coca cola">
-                        
-                        <div class="text">
-                            <span class="name">COCA-COLA</span>
-                            <span class="price">15 USD</span>
-                        </div>
-                    </div>
-
-                    <div class="producto button">
-                        <img src="./img/cocacola-lata.jpg" alt="coca cola">
-                        
-                        <div class="text">
-                            <span class="name">COCA-COLA</span>
-                            <span class="price">15 USD</span>
-                        </div>
-                    </div>
-
-                    <div class="producto button">
-                        <img src="./img/cocacola-lata.jpg" alt="coca cola">
-                        
-                        <div class="text">
-                            <span class="name">COCA-COLA</span>
-                            <span class="price">15 USD</span>
-                        </div>
-                    </div>
-
-                    <div class="producto button">
-                        <img src="./img/cocacola-lata.jpg" alt="coca cola">
-                        
-                        <div class="text">
-                            <span class="name">COCA-COLA</span>
-                            <span class="price">15 USD</span>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             
@@ -236,5 +207,14 @@
         </div>
     </div>    
     </div>
+    
+<!-- !Template: 
+    <div id="mensaje-compra-container">
+        <div id="mensaje-compra">
+            <h2></h2>
+        </div>
+    </div> -->
+
 </body>
+    <script src="./scripts/script.js" type="module"></script>
 </html>
