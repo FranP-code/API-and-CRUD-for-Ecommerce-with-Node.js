@@ -471,3 +471,80 @@ header .perfil img.profile-menu {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 991.98px) {
+
+    body {
+
+        display: initial;
+    }
+
+    .menu-lateral {
+
+        width: 100%;
+    }
+
+    header {
+
+        width: 100%;
+    }
+
+    .pagina-principal .tienda {
+
+        flex-direction: column;
+    }   
+
+    .pagina-principal .tienda .primer-columna {
+
+        width: auto;
+    }
+
+    .pagina-principal .primer-columna .botones-de-descuento {
+
+        width: 96vw;
+    }
+    
+    .pagina-principal .primer-columna .botones-de-descuento button {
+
+        width: calc(calc(96vw / 2) - 0.5vw);
+    }
+
+    .pagina-principal .tienda .segunda-columna {
+
+        width: auto;
+        margin: 0px 1vw;
+    }
+
+    .pagina-principal .tienda .segunda-columna .exposicion-de-productos .productos .producto {
+
+        width: 20vw;
+    }
+
+    .pagina-principal .segunda-columna .sub-menu {
+
+        margin-bottom: 1vh;
+    }
+
+    .pagina-principal .segunda-columna .sub-menu .opciones-de-pago{
+
+        width: calc(26.5vw * 3);
+    }
+
+    .pagina-principal .segunda-columna .sub-menu .opciones-de-pago .opcion {
+
+        width: 24.5vw;
+    }
+
+    .pagina-principal .segunda-columna .sub-menu .pagar.button {
+
+        /* width: calc(99vw - calc(26vw * 3)); */
+        width: calc(96vw - calc(26.5vw * 3));
+    }
+
+    #mensaje-compra-container {
+
+        top: 0;
+
+        height: 195vh;
+    }
+}

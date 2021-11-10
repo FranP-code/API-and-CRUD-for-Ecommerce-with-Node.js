@@ -335,7 +335,7 @@ pagarButton.addEventListener('click', () => {
 
     setTimeout(() => {
 
-        //window.location.reload(true)
+        window.location.reload(true)
 
     }, 3000)
 })
