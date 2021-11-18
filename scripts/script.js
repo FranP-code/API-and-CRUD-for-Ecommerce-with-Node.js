@@ -4,9 +4,6 @@ let activeCategory = 'BEBIDAS'
 let checkout = {}
 let globalProductos = []
 
-const userName = document.getElementById('perfil-nombre')
-      userName.innerText = userName.innerText.toUpperCase()
-
 //! Productos Logica
 
 import traerProductosDeAPI from './traerProductosDeAPI.js'

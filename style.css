@@ -43,7 +43,7 @@ img {
 
 header {
 
-    width: 94vw;
+    width: 100vw;
     height: fit-content;
 
     box-sizing: border-box;
@@ -51,7 +51,7 @@ header {
     display: flex;
     justify-content: space-between;
 
-    background-color: rgb(67, 165, 172);
+    background-color: rgb(123, 169, 255);
     color: #fff;
 
     padding: 0.5vh 0px;
@@ -134,7 +134,7 @@ header .perfil img.profile-menu {
 
 .pagina-principal .primer-columna {
 
-    width: 32vw;
+    width: 38vw;
     box-sizing: border-box;
     
     margin: 1vh 1vw;
