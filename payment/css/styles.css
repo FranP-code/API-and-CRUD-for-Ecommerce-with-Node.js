@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  overflow-y: overlay;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, helveltica;
+  background-color: #d6d6d6;
+}
+
+header {
+  width: 100vw;
+  height: fit-content;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: #7ba9ff;
+  color: #fff;
+  padding: 0.5vh 0px;
+}
+header .logo {
+  font-family: Dancing Script, helveltica;
+  display: flex;
+  user-select: none;
+  margin-left: 1vw;
+}
+header .logo h3 {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  margin-left: 1vw;
+}
+header.sub-header {
+  background-color: #506ea7;
+  padding: 6vh 0px;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.payment-container {
+  height: calc(100% - 2vw);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+  padding-bottom: 1vw;
+}
+.payment-container .column {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0 2vw;
+}
+.payment-container .column.frist-column {
+  width: calc(60vw - 1vw);
+  margin: 0 1vw 0 1vw;
+}
+.payment-container .column.frist-column form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.payment-container .column.frist-column form input[type=text] {
+  border: none;
+  border-bottom: 1px solid #858585;
+  padding: 2vh 0px 1vh 0px;
+  opacity: 50%;
+}
+.payment-container .column.frist-column form select {
+  height: 5vh;
+  margin-top: 1vh;
+}
+.payment-container .column.second-column {
+  width: calc(40vw - 1vw);
+  margin-right: calc(1vw * 2);
+}
+.payment-container .column.second-column table thead {
+  border-bottom: 1px solid #858585;
+}
+.payment-container .column.second-column .message {
+  border: 1px solid #ff5858;
+  background-color: #0008;
+  color: #fff;
+  padding: 1vh 2vw;
+}
+.payment-container .column.second-column button {
+  margin-top: 1vh;
+  height: 8vh;
+  width: 100%;
+}
+.payment-container .column h2 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1vh;
+}
+.payment-container .column table {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

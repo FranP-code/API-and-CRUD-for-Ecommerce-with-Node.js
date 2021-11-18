@@ -36,7 +36,7 @@ const pagarLogica = (checkout) => {
 
         setTimeout(() => {
 
-            window.location.reload(true)
+            window.location.href = './payment'
 
         }, 3000)
     })

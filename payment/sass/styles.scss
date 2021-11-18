@@ -1,0 +1,172 @@
+$spaceBetweenColumns: 1vw;
+
+@mixin columnSize($width) {
+
+    width: calc(#{$width} - #{$spaceBetweenColumns});
+}
+
+html {
+
+    height: 100%;
+
+    overflow-y: overlay;
+}
+
+body {
+
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto, helveltica;
+
+    background-color: rgb(214, 214, 214);
+}
+
+header {
+
+    width: 100vw;
+    height: fit-content;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(123, 169, 255);
+    color: #fff;
+
+    padding: 0.5vh 0px;
+
+    .logo {
+    
+        font-family: Dancing Script, helveltica;
+    
+        display: flex;
+        user-select: none;
+    
+        margin-left: 1vw;
+    
+
+        h3 {
+
+            font-weight: normal;
+    
+            display: flex;
+            align-items: center;
+    
+            margin-left: 1vw;
+        }
+    }
+
+    &.sub-header {
+        
+        background-color: rgb(80, 110, 167);
+        
+        padding: 6vh 0px;
+
+        display: flex;
+        justify-content: center;
+    
+        user-select: none;
+    }
+}
+
+.payment-container {
+
+    height: calc(100% - #{$spaceBetweenColumns * 2});
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: $spaceBetweenColumns;
+    padding-bottom: $spaceBetweenColumns;
+    
+    .column {
+        
+        background-color: #fff;
+        
+        border-radius: 5px;
+        padding: 0 2vw;
+        
+        &.frist-column {
+            
+            $width: 60vw;
+            @include columnSize($width);
+            margin: 0 $spaceBetweenColumns 0 $spaceBetweenColumns;
+
+            form {
+
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+
+                input[type="text"] {
+
+                    border: none;
+                    border-bottom: 1px solid rgb(133, 133, 133);
+                    
+                    padding: 2vh 0px 1vh 0px;
+
+                    opacity: 50%;
+                }
+
+                select {
+                    
+                    height: 5vh;
+
+                    margin-top: 1vh;
+                }
+                
+            }
+        }
+        
+        &.second-column {
+            
+            $width: 40vw;
+            @include columnSize($width);
+            margin-right: calc(#{$spaceBetweenColumns} * 2);
+
+            table {
+
+                thead {
+
+                    border-bottom: 1px solid rgb(133, 133, 133);
+                }
+            }
+
+            .message {
+
+                border: 1px solid rgb(255, 88, 88);
+                background-color: #0008;
+
+                color: #fff;
+
+                padding: 1vh 2vw;
+            }
+
+            button {
+
+                margin-top: 1vh;
+
+                height: 8vh;
+                width: 100%;
+            }
+
+        }
+        
+
+        h2 {
+
+            border-bottom: 1px solid #000;
+            padding-bottom: 1vh;
+        }
+
+        table {
+
+            width: 100%;
+        }
+    }
+}
