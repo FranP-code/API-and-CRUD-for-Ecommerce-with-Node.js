@@ -6,7 +6,7 @@ const pagarLogica = (checkout) => {
 
         if (JSON.stringify(checkout) === '{}') {
     
-            alert('Por favor, agregue uno o mas productos.')
+            alert('Please, add one or more products to buy.')
             return
         }
         
@@ -17,7 +17,7 @@ const pagarLogica = (checkout) => {
             mensajeCompra.id = 'mensaje-compra'
 
         let mensaje = document.createElement('h2')
-            mensaje.innerText = 'Espere, será enviado a la pasarela de pagos en breve...'
+            mensaje.innerText = 'Please wait, it will be sent to the payment gateway shortly...'
 
         mensajeCompra.appendChild(mensaje)
         container.appendChild(mensajeCompra)

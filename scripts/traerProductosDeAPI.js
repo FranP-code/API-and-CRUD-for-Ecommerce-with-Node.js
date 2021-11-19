@@ -6,56 +6,56 @@ const traerProductosDeAPI = async () => {
             name: 'Coca-Cola',
             price: 3.5,
             img: './img/cocacola-lata.jpg',
-            category: 'bebidas'
+            category: 'drinks'
         },
 
         product2: {
             name: 'Coca-Cola Zero',
             price: 3.5,
             img: './img/cocacola-zero.jpg',
-            category: 'bebidas'
+            category: 'drinks'
         },
 
         product3: {
             name: 'Manzana Post.',
             price: 3.5,
             img: './img/postobon-manzana-lata.jpg',
-            category: 'bebidas'
+            category: 'drinks'
         },
 
         product4: {
             name: 'Agua Natural',
             price: 3.5,
             img: './img/agua-500ml.jpg', 
-            category: 'bebidas'
+            category: 'drinks'
         },
 
         product5: {
             name: 'Naranja Post.',
             price: 3.5,
             img: './img/naranja-postobon.jpg',
-            category: 'bebidas'
+            category: 'drinks'
         },
 
         product6: {
             name: 'Tropical 2L',
             price: 3.5, 
             img: './img/tropical-ecuador-botella.jpg',
-            category: 'bebidas'
+            category: 'drinks'
         },
 
         product7: {
             name: 'Piña Postobon',
             price: 3.5,
             img: './img/postobon-pina.jpg',
-            category: 'bebidas'
+            category: 'drinks'
         },
 
         product8: {
             name: 'Asado',
             price: 15,
             img: './img/Asado.jpg',
-            category: 'comidas'
+            category: 'foods'
 
         },
 
@@ -63,7 +63,7 @@ const traerProductosDeAPI = async () => {
             name: "Medialunas Dulces",
             price: 2,
             img: './img/Medialunas dulces.jpg',
-            category: 'REPOSTERÍA Y PANADERÍA'
+            category: 'pastry and bakery'
         },
 
         product10: {
@@ -71,7 +71,7 @@ const traerProductosDeAPI = async () => {
             name: 'Papas fritas congeladas',
             price: 5,
             img: './img/Papas fritas congeladas.jpg',
-            category: 'refrigerados'
+            category: 'refrigerated'
         }
     }
 }

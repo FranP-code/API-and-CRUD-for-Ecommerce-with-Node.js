@@ -1,6 +1,6 @@
 //? GLOBAL
 
-let activeCategory = 'BEBIDAS'
+let activeCategory = 'DRINKS'
 let checkout = {}
 let globalProductos = []
 

@@ -270,6 +270,8 @@ header .perfil img.profile-menu {
     flex-grow: 1;
 
     border-radius: 5px;
+
+    user-select: none;
 }
 
 .pagina-principal .primer-columna .botones-de-descuento :first-child {
@@ -312,6 +314,7 @@ header .perfil img.profile-menu {
 
     margin: 1vh 0px;
 
+    user-select: none;
 }
 
 .pagina-principal .segunda-columna nav ul li.active {
