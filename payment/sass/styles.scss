@@ -47,7 +47,8 @@ header {
         user-select: none;
     
         margin-left: 1vw;
-    
+        
+        cursor: pointer;
 
         h3 {
 
@@ -130,10 +131,47 @@ header {
             margin-right: calc(#{$spaceBetweenColumns} * 2);
 
             table {
+                border-collapse:collapse;
+
+                border-spacing: 2px;
 
                 thead {
 
                     border-bottom: 1px solid rgb(133, 133, 133);
+
+                    th:first-child {
+
+                        text-align: initial;
+                    }
+                }
+
+                tbody::before {
+
+                    content: '';
+                    display: block;
+                    height: 1vh;
+                } // CREDITS: https://stackoverflow.com/questions/294885/how-to-put-spacing-between-tbody-elements
+
+                tbody {
+
+                    tr:first-child {
+
+                        margin-top: 3vh;
+                    }
+
+                    tr {
+
+                        td {
+
+                            text-align: center;
+                            padding-bottom: 1vh;
+                        }
+
+                        td.name {
+
+                            text-align: initial;
+                        }
+                    }
                 }
             }
 

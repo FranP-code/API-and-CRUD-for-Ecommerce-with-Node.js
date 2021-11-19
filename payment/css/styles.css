@@ -26,6 +26,7 @@ header .logo {
   display: flex;
   user-select: none;
   margin-left: 1vw;
+  cursor: pointer;
 }
 header .logo h3 {
   font-weight: normal;
@@ -76,8 +77,30 @@ header.sub-header {
   width: calc(40vw - 1vw);
   margin-right: calc(1vw * 2);
 }
+.payment-container .column.second-column table {
+  border-collapse: collapse;
+  border-spacing: 2px;
+}
 .payment-container .column.second-column table thead {
   border-bottom: 1px solid #858585;
+}
+.payment-container .column.second-column table thead th:first-child {
+  text-align: initial;
+}
+.payment-container .column.second-column table tbody::before {
+  content: "";
+  display: block;
+  height: 1vh;
+}
+.payment-container .column.second-column table tbody tr:first-child {
+  margin-top: 3vh;
+}
+.payment-container .column.second-column table tbody tr td {
+  text-align: center;
+  padding-bottom: 1vh;
+}
+.payment-container .column.second-column table tbody tr td.name {
+  text-align: initial;
 }
 .payment-container .column.second-column .message {
   border: 1px solid #ff5858;

@@ -34,6 +34,8 @@ const pagarLogica = (checkout) => {
 
         body.style.overflowY = 'hidden'
 
+        sessionStorage.setItem('order', JSON.stringify(checkout))
+        
         setTimeout(() => {
 
             window.location.href = './payment'
