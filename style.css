@@ -122,6 +122,22 @@ header .perfil img.profile-menu {
 
 }
 
+header button {
+
+    margin-right: 2vw;
+    width: 10vw;
+
+    height: 5vh;
+    border-radius: 6px;
+
+    align-self: center;
+    border: none;
+
+    background-color: rgb(241, 239, 101);
+
+    cursor: pointer;
+}
+
 .pagina-principal {
 
     background-color: rgb(214, 214, 214);
