@@ -12,6 +12,17 @@ const Header = (props) => {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        flex-direction: column;
+
+        color: #fff;
+
+        user-select: none;
+
+        h1 {
+
+            margin: 2vh 0px 1vh 0px;
+        }
     `
 
     return (
