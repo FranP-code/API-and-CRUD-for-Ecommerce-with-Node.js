@@ -58,6 +58,8 @@ header {
             align-items: center;
     
             margin-left: 1vw;
+
+            user-select: none;
         }
     }
 
@@ -104,6 +106,8 @@ header {
                 display: flex;
                 flex-direction: column;
 
+                user-select: none;
+
                 input[type="text"] {
 
                     border: none;
@@ -138,6 +142,8 @@ header {
                 thead {
 
                     border-bottom: 1px solid rgb(133, 133, 133);
+
+                    user-select: none;
 
                     th:first-child {
 
@@ -191,6 +197,8 @@ header {
 
                 height: 8vh;
                 width: 100%;
+
+                user-select: none;
             }
 
         }
@@ -200,11 +208,41 @@ header {
 
             border-bottom: 1px solid #000;
             padding-bottom: 1vh;
+
+            user-select: none;
         }
 
         table {
 
             width: 100%;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .payment-container {
+
+        justify-content: center;
+        flex-direction: column;
+
+        .column {
+
+            &.frist-column, &.second-column {
+   
+                box-sizing: border-box;
+
+                $width: 96vw;
+                @include columnSize($width);
+
+                margin: 0px 1vw 0px 1vw;
+                padding-bottom: 2vh;
+            }
+
+            &.frist-column {
+
+                margin-bottom: 2vh;
+            }
         }
     }
 }

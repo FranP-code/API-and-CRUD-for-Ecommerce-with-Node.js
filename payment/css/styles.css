@@ -33,6 +33,7 @@ header .logo h3 {
   display: flex;
   align-items: center;
   margin-left: 1vw;
+  user-select: none;
 }
 header.sub-header {
   background-color: #506ea7;
@@ -62,6 +63,7 @@ header.sub-header {
   width: 100%;
   display: flex;
   flex-direction: column;
+  user-select: none;
 }
 .payment-container .column.frist-column form input[type=text] {
   border: none;
@@ -83,6 +85,7 @@ header.sub-header {
 }
 .payment-container .column.second-column table thead {
   border-bottom: 1px solid #858585;
+  user-select: none;
 }
 .payment-container .column.second-column table thead th:first-child {
   text-align: initial;
@@ -112,13 +115,31 @@ header.sub-header {
   margin-top: 1vh;
   height: 8vh;
   width: 100%;
+  user-select: none;
 }
 .payment-container .column h2 {
   border-bottom: 1px solid #000;
   padding-bottom: 1vh;
+  user-select: none;
 }
 .payment-container .column table {
   width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .payment-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .payment-container .column.frist-column, .payment-container .column.second-column {
+    box-sizing: border-box;
+    width: calc(96vw - 1vw);
+    margin: 0px 1vw 0px 1vw;
+    padding-bottom: 2vh;
+  }
+  .payment-container .column.frist-column {
+    margin-bottom: 2vh;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
