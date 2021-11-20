@@ -1,12 +1,15 @@
 import React from 'react'
-import styled, {css} from 'styled-components'
+import styled from 'styled-components'
 
 const Button = (props) => {
 
     const LinkStyle = styled.a`
 
         height: 6vh;
+        max-height: 60.98px;
+
         width: 15vw;
+        max-width: 193px;
 
         padding: 1vh 1vw 1vh 1vw;
         margin: 0px 0px 1vh 0px;

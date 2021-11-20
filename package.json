@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "color": "^4.0.1",
     "http-server": "^14.0.0"
   }
 }
